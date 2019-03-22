@@ -1,0 +1,17 @@
+{
+  "espanol" : {
+    "Name" : "es-ES-Standard-A",
+    "Supported language": "es-ES",
+    "SSML Voice Gender": "FEMALE"
+  },
+  "ingles1" : {
+    "Name" : "en-US-Wavenet-B",
+    "Supported language": "en-US",
+    "SSML Voice Gender": "MALE"
+  },
+  "ingles2" : {
+    "Name" : "en-US-Wavenet-C",
+    "Supported language": "en-US",
+    "SSML Voice Gender": "FEMALE"
+  }
+}
