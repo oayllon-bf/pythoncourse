@@ -2,6 +2,7 @@
 This is the header of the python file
 company name: pythoncourse
 """
+# csv reader example
 
 import pandas as pd
 
@@ -15,7 +16,7 @@ for chunk in pd.read_csv("iris.csv", chunksize=10):
             counts_dict[entry] += 1
         else:
             counts_dict[entry] = 1
-
     # for entry in chunk.values:
     #     for item in entry:
     #         print(item)
+print(counts_dict)
